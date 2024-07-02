@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion -->
+<html><head lang="es-cl"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	API codificación
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./api_codificacion_files/bootstrap.min.css"><link rel="stylesheet" href="./api_codificacion_files/fontawesome-all.min.css"><link rel="stylesheet" href="./api_codificacion_files/base_ine.css"><meta name="theme-color" content="#214e7f">
+	
+	<!-- jQuery, Popper.js, Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/fontawesome.min.js"></script>
+	<script src="/Sitefinity/WebsiteTemplates/INE/App_Theme/js/base_ine.js"></script-->
+	
+	
+	
+	<!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="./api_codificacion_files/jquery-3.2.1.min.js.descarga"></script>
+    <script src="./api_codificacion_files/popper.min.js.descarga"></script>
+    <script src="./api_codificacion_files/bootstrap.min.js.descarga"></script>
+	
+	<script src="./api_codificacion_files/fontawesome.min.js.descarga"></script>
+	<script src="./api_codificacion_files/base_ine.js.descarga"></script>
+	
+	
+	<!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="https://www.ine.gob.cl/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/favicon-16x16.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/Sitefinity/WebsiteTemplates/INE/App_Theme/img/favicon/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="API codificación"><meta property="og:url" content="http://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion"><meta property="og:type" content="website"><meta property="og:site_name" content="Default"><script type="text/javascript" src="./api_codificacion_files/js"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-1PQRVPPXF1');</script><style type="text/css" media="all">button.btn {
+font-weight: 700;
+display: inline-block;
+color: #1f66a9;
+padding: 5px 10px;
+font-size: .9rem;
+}</style><style type="text/css" media="all">.accesibilidad {border-radius:5px 0 0 5px;}
+#Footer .fab {text-decoration: none;}
+
+.bloqueLlamado{
+ border-right: 1px solid #cce5ff; 
+}
+
+.bloqueLlamado:last-child{
+ border-right: 0; 	 
+}
+
+.idi {
+    background-color: #ffffff;
+    color: #1f4878 !important;
+    font-size: .6rem !important;
+    padding: 6px;
+}
+
+/*---------------------------------------------------------
+MEJORAS MENÚ
+---------------------------------------------------------*/
+@media (max-width: 1024px) {
+.menuHeader {
+    font-size: .75rem !important;
+}
+.logoIne img {
+    max-width: 62px !important;
+    padding: 15px 14px 15px 0 !important;
+}
+.ac {display: none;}  
+}
+
+@media (max-width: 1181px) {
+.menuHeader {
+    font-size: .84rem;
+}
+.logoIne img {
+    max-width: 75px;
+    padding: 14px 15px 14px 0;
+}
+.ac {display: none;} 
+}
+
+#PieFooter .containerTotal {
+    padding: 2rem 0;
+}
+
+@media (max-width: 1400px) {
+.menuHeader {
+    font-size: .8rem;
+    padding: 18px 10px 18px 2px;
+}
+.ac {
+    font-size: 10px !important;
+}
+.menuDerHeader {
+    float: right;
+    margin: 15px 0;
+}  
+.menuDerHeader a {
+    font-size: .75rem;
+    margin: 0 2px;
+}
+.containerTotal .menuIne {
+    width: 94% !important;
+}  
+.containerTotal .logoIne {
+    width: 5.6% !important;
+}  
+.logoIne img {
+    max-width: 80px;
+    padding: 13px 15px 13px 0;
+}
+}
+
+@media screen and (max-width: 660px){
+  .bloqueLlamado{
+    border-right: 0;
+    border-top: 1px solid #cce5ff;
+    border-radius: 0 !important;
+  }
+}</style><style type="text/css" media="all">
+.evaluenos_p5 p[data-sf-role="error-message"]{
+      display: block;
+    font-size: 10px;
+    text-align: left;
+    color: #ed1d24;
+    margin-top: 7px;
+}
+
+.evaluenos_full_contenedor{
+-webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.27);
+box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.27);
+position:fixed;
+z-index:10;
+background:#ffffff;
+width: 320px !important;
+max-width: 100%;
+margin:auto;
+display:none;
+align-items:center !important;
+justify-content:center !important;
+right:0;
+padding: 30px !important;
+top:39%;
+-webkit-animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both
+}
+
+.cajaEvaluenos:hover{
+background: #3989c9;
+}
+
+.cajaEvaluenos{
+background: #2e7d84;
+font-size: 1.25rem !important;
+color: #fff;
+cursor: pointer;
+position: fixed;
+right: 0;
+top: 39%;
+z-index: 1;
+overflow-wrap: normal !important;
+word-break: normal !important;
+word-wrap: normal !important;
+white-space: nowrap !important;
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+-webkit-writing-mode: vertical-lr;
+-moz-writing-mode: vertical-lr;
+-ms-writing-mode: tb-rl;
+-o-writing-mode: vertical-lr;
+writing-mode: vertical-lr;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+transform: rotate(180deg);
+padding: 10px;
+border-radius: 0 3px 3px 0;
+letter-spacing: 0;
+}
+
+.evalue_p{
+display:none;
+-webkit-animation:slide-in-blurred-right .4s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-right .4s cubic-bezier(.23,1.000,.32,1.000) both;
+}
+
+.evalue_p.evalue_p_1{
+display:block;  
+}
+
+@-webkit-keyframes slide-in-blurred-right{0%{-webkit-transform:translateX(1000px) scaleX(2.5) scaleY(.2);transform:translateX(1000px) scaleX(2.5) scaleY(.2);-webkit-transform-origin:0 50%;transform-origin:0 50%;-webkit-filter:blur(40px);filter:blur(40px);opacity:0}100%{-webkit-transform:translateX(0) scaleY(1) scaleX(1);transform:translateX(0) scaleY(1) scaleX(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes slide-in-blurred-right{0%{-webkit-transform:translateX(1000px) scaleX(2.5) scaleY(.2);transform:translateX(1000px) scaleX(2.5) scaleY(.2);-webkit-transform-origin:0 50%;transform-origin:0 50%;-webkit-filter:blur(40px);filter:blur(40px);opacity:0}100%{-webkit-transform:translateX(0) scaleY(1) scaleX(1);transform:translateX(0) scaleY(1) scaleX(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+@-webkit-keyframes slide-left{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes slide-left{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}
+
+.evalue_p label input[type='radio']{
+display:none;
+}
+
+.evalue_p label{
+font-size:12px;
+}
+
+.triste:before,.neutro:before,.alegre:before{
+content: ' ';
+display: block;
+margin: auto;
+width: 50px;
+height: 50px;
+background-size: 80%;
+background-position: center;
+background-repeat: no-repeat;
+transition: .3s all;
+}
+
+.evalue_p .sf-RadioButtons div{
+width: 31%;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+}
+
+.evalue_p div:hover > label:before{
+background-size: 100% ;
+cursor:pointer;
+}
+
+.triste:before{
+background-image: url(/images/default-source/evaluacion-ine/triste.svg) !important;
+}
+
+.neutro:before{
+background-image: url(/images/default-source/evaluacion-ine/neutral.svg) !important;
+}
+
+.alegre:before{
+background-image: url(/images/default-source/evaluacion-ine/alegre.svg) !important;
+}
+
+.evalue_p strong{
+display: block;
+text-align: center;
+margin-bottom: 15px; 
+}
+
+.evalue_p textarea{
+width: 100%; 
+}
+
+.btn-evalue{
+text-align:center; 
+}
+
+.btn-evalue button{
+background: #2e7d84;
+color: #fff;
+border: 0;
+padding: 10px 20px;
+margin-top: 10px;
+}
+
+.op-comentario label{
+font-size:16px;
+text-align:center;
+font-weight: bolder;
+}
+
+.evaluenos_cerrar{
+color: #fff;
+position: absolute;
+right: 10px;
+top: 10px;
+background: #2f7e84;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+vertical-align: middle;
+text-align: center;
+margin: 0;
+padding: 2px;
+line-height: 1;
+cursor:pointer;
+}
+
+.op-titulo, .op-url {
+opacity: 0;
+position: absolute;
+z-index:-1;
+}
+
+
+.evalue_p_5 label[for="Textbox-3"]{
+ display:none; 
+}</style><style type="text/css" media="all">/*
+.btn-cci {
+/
+background-image: url(/images/default-source/conferencias-ciudadanas/elemento-avisos/background-genero-image.jpg);
+/
+background-color: #000233;
+background-position: center;
+background-size: contain;
+padding: 1rem;
+white-space: inherit;
+font-size: 1.3rem;
+color: #ffffff;
+border-radius: 0;
+}
+
+.btn-cci:hover,
+.btn-cci:active,
+.btn-cci:focus {
+background-color: #0b0442 !important;
+border-color: #0b0442 !important;
+color: #ffffff;
+}
+
+.btn-cci span {
+text-decoration: underline;
+}
+
+em.fa-calendar-check {
+font-size: 1.7rem;
+margin-left: .5rem;
+}
+
+@media (max-width: 768px) {
+    a.btn-cci img {
+        width: 70%;
+    }
+}
+
+/
+.btn strong {
+background-color: #edb15b;
+padding: .4rem;
+}
+
+.btn span {
+font-size: 1.5rem;
+color: #453f9d;
+}
+*/</style><style type="text/css" media="all">.row .col-sm-3,
+.row .col-sm-4,
+.row .col-sm-5,
+.row .col-sm-6,
+.row .col-sm-7,
+.row .col-sm-8,
+.row .col-sm-9,
+.row .col-sm-12,
+.row .col-md-3,
+.row .col-md-4,
+.row .col-md-8,
+.row .col-md-9,
+.row .col-md-12 {padding:0;}
+.colNavegaCarpetas {padding: 25px !important;}
+.colListadoPrincipal {
+padding: 25px 30px !important;
+font-size: 1rem;
+}
+.des-org {
+margin-top: 50px;
+padding: 15px 30px;
+color: #ffffff;
+background-color: #98a9bb;
+}
+.resumenListaCategoria {
+border: 0 none;
+padding: 0;
+}</style><style type="text/css" media="all">.navListSinDes {
+margin-right: 40px !important;
+padding: 20px !important;
+}
+.navListSinDes li a {font-size: 1.2rem;}</style><style type="text/css" media="all">.sftitle, 
+.sfitemPublicationDate {
+    display: none;
+}
+
+.titulo-api {
+    color: #2e7d84;
+    padding: 25px 0;
+    font-weight: lighter;
+}</style><meta name="Generator" content="Sitefinity 12.1.7100.0 PU"><link rel="canonical" href="http://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion"><link href="./api_codificacion_files/Telerik.Web.UI.WebResource.axd" type="text/css" rel="stylesheet"></head>
+<body class="bodyIne">
+ 
+ <form method="post" action="https://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl24_TSSM" id="ctl24_TSSM" value=";Telerik.Sitefinity.Resources, Version=12.1.7100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:es-CL:df1d0602-bb89-4258-add2-45341006ff4d:7a90d6a:83fa35c7">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="0D8X/Zteai7rDPNx3iyxqH2EGQORDYOgZhsJPBBqnJxrt9qXb7Q6X1GiqbZSSYg7x9VL3tbKL4Z/SEic+utpka6Yc01h5XlVk9vzShnd8RY=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./api_codificacion_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./api_codificacion_files/ScriptResource.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="./api_codificacion_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./api_codificacion_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./api_codificacion_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./api_codificacion_files/form.all.js.descarga" type="text/javascript"></script>
+<script src="./api_codificacion_files/WebResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5A2CCB16">
+</div>
+	<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+	 <div id="Header" class="containerTotal">
+		 
+<div class="sf_cols">
+    <div class="sf_colsOut sf_2cols_1_25 logoIne" style="width: 9%;">
+        <div id="Header_T337C3398010_Col00" class="sf_colsIn sf_2cols_1in_25">
+<a href="https://www.ine.gob.cl/"><img src="./api_codificacion_files/ine_blanco.svg" alt="INE"></a>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_2cols_2_75 menuIne" style="width: 91%;">
+        <div id="Header_T337C3398010_Col01" class="sf_colsIn sf_2cols_2in_75"><div class="sf_cols">
+    <div class="sf_colsOut menuDesktop" style="">
+        <div id="Header_T337C3398020_Col00" class="sf_colsIn sf_1col_1in_100">
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Estadísticas
+<div class="menuEscritorioAbierto" style="display: none;">
+<div class="row row-eq-height">
+<!-------------------------------------------------------------
+ESTADÍSTICA ECONOMÍA
+-------------------------------------------------------------->
+<div class="col-xs-6" style="border-right:1px solid #e5e5e5;">
+<h3>Economía</h3>
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/estadisticas/economia/indices-de-precio-e-inflacion" data-toggle="tooltip" data-placement="right" data-html="true" title="Índice de precios al consumidor, productor, al por mayor, costos del transporte, Costos de las Isapres">Índices de precios e inflación</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/energia-y-medioambiente" data-toggle="tooltip" data-placement="right" data-html="true" title="Generación, Transmisión y Distribución de Energía Eléctrica. Gas, Agua, Precipitaciones, Calidad del Aire, Tierra y Suelos, Biodiversidad, Desastres Naturales, Embalses, Residuos">Energía y medioambiente</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/agricultura-agroindustria-y-pesca" data-toggle="tooltip" data-placement="right" data-html="true" title="Censos, Acuicultura, Cultivos Anuales, Siembra, Cosecha, Producción Pecuaria (bobinos, ovinos, caprinos), Hortalizas, Ferias y Mataderos, Leche y Productos Lácteos, Cecinas">Agricultura, agroindustria y pesca</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/transporte-y-comunicaciones" data-toggle="tooltip" data-placement="right" data-html="true" title="Transporte Interurbano de Pasajeros y Carga por Carretera, Permisos de Circulación, Licencias de Conducir, Ferrocarriles, Metro, Plazas de Peajes y Pórticos, Correo, Telefonía Móvil, Fija y de Larga Distancia">Transporte y comunicaciones</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/comercio-servicios-y-turismo" data-toggle="tooltip" data-placement="right" data-html="true" title="Actividad Mensual y Anual del Comercio, Ventas de Comercio al Por Menor y Por Mayor, Ventas de Supermercados, Servicios Financieros a Empresas, Actividad del Turismo, Pernoctaciones e Ingresos">Comercio, servicios y turismo</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/edificacion-y-construccion" data-toggle="tooltip" data-placement="right" data-html="true" title="Superficie autorizada de permisos de edificación, obras nuevas y ampliaciones, viviendas, Industria, Comercio y Establecimientos Financieros; Evolución de Ingresos en Grandes Empresas Constructoras">Edificación y construcción</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/industria-manufacturera" data-toggle="tooltip" data-placement="right" data-html="true" title="Estructura de la Industria, Ingresos, Costos, Remuneraciones, Inventarios, Producción Manufacturera, Alimentos y Bebidas, Celulosa, Productos Químicos, Molienda de Trigo">Industria manufacturera</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/mineria" data-toggle="tooltip" data-placement="right" data-html="true" title="">Minería</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/ciencia-y-tecnologia" data-toggle="tooltip" data-placement="right" data-html="true" title="Innovación de Productos, Procesos, Marketing, Innovación Organizacional, Gasto y Personal en Innovación, Investigación y Desarrollo.">Ciencia y tecnología</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/macroeconomicas-finanzas-del-estado" data-toggle="tooltip" data-placement="right" data-html="true" title="Producto Interno Bruto desde los tres enfoques: producción, gasto e ingreso; agregados monetarios, tasas de interés, balanza de pagos y posición de inversión internacional, finanzas del Estado.">Macroeconómicas y finanzas del Estado</a>
+</div>
+</div>
+<!-------------------------------------------------------------
+ESTADÍSTICA SOCIALES
+-------------------------------------------------------------->
+<div class="col-xs-6">
+<h3>Sociales</h3>
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/estadisticas/sociales/mercado-laboral" data-toggle="tooltip" data-placement="right" data-html="true" title="Empleo, ocupación y desocupación, sueldos y salarios, condiciones laborales, trabajo Informal, microemprendimiento">Mercado laboral</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/demografia-y-vitales" data-toggle="tooltip" data-placement="right" data-html="true" title="Nacimientos, defunciones, matrimonios, migración interna e internacional, estimaciones y proyecciones de población">Demografía y vitales</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda" data-toggle="tooltip" data-placement="right" data-html="true" title="Cuántos y cómo somos, características de las viviendas y de los hogares, caracterización sociodemográfica, estructura poblacional, migración, fecundidad, educación, pueblos originarios">Censos de Población y Vivienda</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/genero" data-toggle="tooltip" data-placement="right" data-html="true" title="Empleo, ocupación, trabajo no remunerado y uso del tiempo, brechas salariales e ingresos, pobreza, educación, violencia de género, educación, salud, participación en alcaldías, concejalías regionales, CORES, Poder Judicial">Género</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/ingresos-y-gastos" data-toggle="tooltip" data-placement="right" data-html="true" title="Ingresos de las personas, de los hogares, de la ocupación, distribución de ingresos, gastos de los hogares, estructura de gastos de los hogares, estructura del consumo, Encuesta de Presupuestos Familiares">Ingresos y gastos de las personas</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/condiciones-de-vida-y-cultura" data-toggle="tooltip" data-placement="right" data-html="true" title="Calidad de vida, salud, discapacidad, trabajo infantil y adolescente, anuarios de cultura, etnias">Condiciones de vida y cultura</a>
+<a href="https://www.ine.gob.cl/estadisticas/sociales/seguridad-publica-y-justicia" data-toggle="tooltip" data-placement="right" data-html="true" title="Seguridad ciudadana, anuarios de justicia, Carabineros y Policía de Investigaciones">Seguridad pública y justicia</a>
+<a href="https://www.ine.gob.cl/estadisticas/economia/economia-regional" data-toggle="tooltip" data-placement="right" data-html="true" title="Actividad Económica Regional, Estadísticas Regionales">Economía regional</a>
+</div>
+</div>
+<div class="col-12">
+<a class="btn btn-menuHeader" href="https://www.ine.gob.cl/estadisticas/">Ver detalles</a>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------
+HERRAMIENTAS
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Herramientas
+<div class="menuEscritorioAbierto" style="display: none;">
+<div class="bloqueNombres">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/inicio/agendaestadistica/">Agenda estadística <i class="fas fa-external-link-alt"></i></a>
+<a href="https://www.ine.gob.cl/simel" target="_blank">Sistema de Información de Mercado Laboral - SIMEL<i class="fas fa-external-link-alt"></i></a>  
+<a href="https://bancodatosene.ine.cl/" target="_blank">Banco de datos ENE <i class="fas fa-external-link-alt"></i></a>
+<a href="https://calculadoraipc.ine.cl/" target="_blank">Calculadora IPC <i class="fas fa-external-link-alt"></i></a>
+<a href="https://calculadoraict.ine.cl/" target="_blank">Calculadora ICT <i class="fas fa-external-link-alt"></i></a>  
+<a href="https://redatam-ine.ine.cl/" target="_blank">Redatam <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="bloqueNombres">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/calidad-estadistica/buscador-asistido-de-nomenclaturas">Buscador Asistido de Nomenclaturas <i class="fas fa-external-link-alt"></i></a>  
+<a href="https://www.ine.gob.cl/herramientas/portal-de-mapas" target="_blank">Portal de Mapas <i class="fas fa-external-link-alt"></i></a>
+<a href="https://stat.ine.cl/?lang=es" target="_blank">INE.Stat <i class="fas fa-external-link-alt"></i></a>
+<!--<a href="https://rapps.ine.cl:3838/app/033_INE" target="_blank">Aplicación evaluación encuestas de hogares <i class="fas fa-external-link-alt"></i></a>-->  
+<a href="https://verificador.ine.cl/" target="_blank">Verificador de encuestadores <i class="fas fa-external-link-alt"></i></a>
+<a href="https://www.ine.gob.cl/institucional/sistema-estadistico-nacional/sistema-de-iniciativas-estadisticas" target="_blank">Sistema de iniciativas estadísticas <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------
+CALIDAD ESTADÍSTICA
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Calidad Estadística
+<div class="menuEscritorioAbierto" style="display: none;">
+<div class="row row-eq-height">
+<div class="col-xs-6" style="border-right:1px solid #e5e5e5;">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/calidad-estadistica/clasificaciones">Clasificaciones</a>
+<a href="https://www.ine.gob.cl/calidad-estadistica/directrices-metodologicas">Directrices Metodológicas</a>
+</div>
+</div>
+<div class="col-xs-6">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/calidad-estadistica/aseguramiento-de-la-calidad-estadistica">Aseguramiento de la Calidad Estadística</a>
+<!--<a href="/calidad-estadistica/buscador-asistido-de-nomenclaturas">Buscador Asistido de Nomenclaturas</a>-->
+</div>
+</div>
+<div class="col-12">
+<a class="btn btn-menuHeader" href="https://www.ine.gob.cl/calidad-estadistica">Ver detalles</a>
+</div> 
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------
+INSTITUCIONAL
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Institucional
+<div class="menuEscritorioAbierto" style="display: none;">
+<div class="row row-eq-height">
+<div class="col-xs-6" style="border-right:1px solid #e5e5e5;">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/institucional/nuestra-institucion">Nuestra institución</a>
+<a href="https://www.ine.gob.cl/institucional/plan-estrategico-2022-2026">Plan Estratégico 2022-2026</a>
+<a href="https://www.ine.gob.cl/institucional/sistema-estadistico-nacional">Sistema estadístico nacional</a>
+<a href="https://www.ine.gob.cl/institucional/inventario-de-registros-administrativos">Inventario de registros administrativos</a>   
+</div>
+</div>
+<div class="col-xs-6">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/institucional/area-internacional">Área Internacional</a>
+<a href="https://www.ine.gob.cl/institucional/ods">Participación institucional en ODS</a>  
+</div>    
+</div>
+<div class="col-12">
+<a class="btn btn-menuHeader" href="https://www.ine.gob.cl/institucional/">Ver detalles</a>
+</div> 
+</div>  
+</div>
+</div>
+<!-------------------------------------------------------------
+SALA DE PRENSA
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Sala de Prensa
+<div class="menuEscritorioAbierto" style="display: none;">
+<div class="row row-eq-height">
+<div class="col-xs-6" style="border-right:1px solid #e5e5e5;">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/sala-de-prensa/prensa/general">Prensa</a>
+<!--<a href="/sala-de-prensa/infografias">Infografias</a>-->
+</div>
+</div>
+<div class="col-xs-6">
+<div class="categoriasMenu">
+<a href="https://www.youtube.com/c/inechileoficial/videos">Videos</a>
+<!--<a href=""></a>-->
+</div>    
+</div>
+<div class="col-12">
+<a class="btn btn-menuHeader" href="https://www.ine.gob.cl/sala-de-prensa">Ver detalles</a>
+</div> 
+</div>  
+</div>
+</div>
+<!-------------------------------------------------------------
+REGIONES
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Regiones
+<div class="menuEscritorioAbierto" style="width: 515px;display: none;margin-left: -201px;">
+<div class="row row-eq-height">
+<div class="col-xs-4">
+<h3>Norte</h3>
+<div class="categoriasMenu">
+<a href="https://regiones.ine.gob.cl/arica-y-parinacota">Arica y Parinacota</a>
+<a href="https://regiones.ine.gob.cl/tarapaca">Tarapacá</a>
+<a href="https://regiones.ine.gob.cl/antofagasta">Antofagasta</a>
+<a href="https://regiones.ine.gob.cl/atacama">Atacama</a>
+<a href="https://regiones.ine.gob.cl/coquimbo">Coquimbo</a>
+</div>
+</div>
+<div class="col-xs-4" style="border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;">
+<h3>Centro</h3>
+<div class="categoriasMenu">
+<a href="https://regiones.ine.gob.cl/valparaiso">Valparaíso</a>
+<a href="https://regiones.ine.gob.cl/ohiggins">O'Higgins</a>
+<a href="https://regiones.ine.gob.cl/maule">Maule</a>
+<a href="https://regiones.ine.gob.cl/nuble">Ñuble</a>
+<a href="https://regiones.ine.gob.cl/biobio">Biobío</a>
+</div>
+</div>
+<div class="col-xs-4">
+<h3>Sur</h3>
+<div class="categoriasMenu">
+<a href="https://regiones.ine.gob.cl/araucania">La Araucanía</a>
+<a href="https://regiones.ine.gob.cl/los-rios">Los Ríos</a>
+<a href="https://regiones.ine.gob.cl/los-lagos">Los Lagos</a>
+<a href="https://regiones.ine.gob.cl/aysen">Aysén</a>
+<a href="https://regiones.ine.gob.cl/magallanes">Magallanes</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------
+ACCESO A INFORMANTES
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>Acceso Informantes
+<div class="menuEscritorioAbierto" style="margin-left: -200px; display: none;">
+<div class="bloqueNombres">
+<h3>Personas</h3>
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/acceso-informantes/informacion-para-personas-encuestadas">Información para personas encuestadas</a>
+</div>
+</div>
+<div class="bloqueNombres">
+<h3>Empresas</h3>
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/acceso-informantes/informacion-para-empresas-encuestadas">Información para empresas encuestadas</a>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------
+INE EDUCA
+-------------------------------------------------------------->
+<div class="menuHeader">
+<div class="flechaTextoMenu">►</div>INE Educa
+<div class="menuEscritorioAbierto" style="margin-left: -374px; display: none;">
+<div class="row row-eq-height">
+<div class="col-xs-6" style="border-right:1px solid #e5e5e5;">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/ineciudadano/conoce-el-ine">Conoce el INE</a>
+<!--<a href="/ineciudadano/definiciones-estadisticas">Definiciones estadísticas</a>-->
+<a href="https://www.ine.gob.cl/conferencias-ciudadanas">Conferencias Ciudadanas</a>  
+<a href="https://www.ine.gob.cl/ine-ciudadano/boletin-ciudadano">Boletín ciudadano</a>
+</div>
+</div>
+<div class="col-xs-6">
+<div class="categoriasMenu">
+<a href="https://www.ine.gob.cl/ineciudadano/cursos">Cursos</a>
+<a href="https://www.ine.gob.cl/ineciudadano/clases-r">Clases R</a>    
+<a href="https://www.ine.gob.cl/ineciudadano/participacion-ciudadana">Participación ciudadana</a>
+</div> 
+</div>
+<div class="col-12">
+<a class="btn btn-menuHeader" href="https://www.ine.gob.cl/ineciudadano/">Ver detalles</a>
+</div>
+</div>
+<!--
+<div class="bloqueNombres"></div>
+<div class="bloqueNombres"></div>
+-->
+</div>
+</div>
+<!--
+<div class="menuHeader" style="padding: 10px 11px 10px 2px;">
+<button type="button" class="btn btn-light" id="btnWebAnterior"><a style="color:#1f66a9;" href="" targer="_blank">Web anterior</a></button>
+</div>
+-->
+
+<!-------------------------------------------------------------
+TRANSPARENCIA Y REDES SOCIALES
+-------------------------------------------------------------->     
+<div class="menuDerHeader">
+<a href="https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=AH007" target="_blank" class="ac">Transparencia Activa</a>
+<a href="https://www.facebook.com/ChileINE/" target="_blank" class="fab fa-facebook-f"></a>
+<a href="https://twitter.com/ine_chile?lang=es" target="_blank" class="fab fa-twitter"></a>
+<a href="https://www.youtube.com/user/inechile" target="_blank" class="fab fa-youtube"></a>
+<a href="https://www.instagram.com/chile.ine/" target="_blank" class="fab fa-instagram"></a>
+<!--<div class="busqueda"><i class="fas fa-search"></i></div>-->
+<a href="https://www.ine.gob.cl/statistics" title="English" aria-expanded="false" class="idi ml-2"><u>EN</u></a>  
+</div>
+            
+        </div>
+    </div>
+</div>
+        
+        </div>
+    </div>
+</div>
+
+
+	 </div>
+	 <div id="HeaderMovil" class="containerTotal">
+		 
+
+<a href="https://www.ine.gob.cl/"><img class="logoMovil" src="./api_codificacion_files/ine_blanco.svg" alt="INE"></a>
+<div class="accesibilidad accesibilidadMovil">
+<i class="fas fa-universal-access" aria-hidden="true"></i>
+</div>
+<div class="menuMovilIcono">
+<i class="fas fa-bars"></i></div>
+<div class="menuMovil" tabindex="1" style="overflow: hidden; outline: none;">
+<div class="contCerrarMovil">
+<i class="far fa-times-circle"></i>
+</div>
+<div class="ine_logo_movil">
+<a href="https://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion#"><img src="./api_codificacion_files/logo_movil.png" alt="INE"></a>
+</div>
+<!-------------------------------------------------------------
+ESTADÍSTICA
+-------------------------------------------------------------->
+<div class="elmNivel1 abrir">
+Estadísticas
+</div>
+<div class="subNivel">
+<div class="elmNivel2 abrir">Economía</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/indices-de-precio-e-inflacion"><i class="fas fa-chart-pie"></i> Índices de precios e inflación</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/energia-y-medioambiente"><i class="fas fa-chart-pie"></i> Energía y medioambiente</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/agricultura-agroindustria-y-pesca"><i class="fas fa-chart-pie"></i> Agricultura, agroindustria y pesca</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/transporte-y-comunicaciones"><i class="fas fa-chart-pie"></i> Transporte y comunicaciones</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/comercio-servicios-y-turismo"> Comercio, servicios y turismo</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/edificacion-y-construccion"><i class="fas fa-chart-pie"></i> Edificación y construcción</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/industria-manufacturera"><i class="fas fa-chart-pie"></i> Industria manufacturera</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/mineria"><i class="fas fa-chart-pie"></i> Minería</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/ciencia-y-tecnologia"><i class="fas fa-chart-pie"></i> Ciencia y tecnología</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/macroeconomicas-finanzas-del-estado"><i class="fas fa-chart-pie"></i> Macroeconómicas y finanzas del Estado</a></li>
+</ul>
+<div class="elmNivel2 abrir">Sociales</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/mercado-laboral"><i class="fas fa-chart-pie"></i> Mercado laboral</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/demografia-y-vitales"><i class="fas fa-chart-pie"></i> Demografía y vitales</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda"><i class="fas fa-chart-pie"></i> Censos de Población y Vivienda</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/genero"><i class="fas fa-chart-pie"></i> Género</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/ingresos-y-gastos"><i class="fas fa-chart-pie"></i> Ingresos y gastos de las personas</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/condiciones-de-vida-y-cultura"><i class="fas fa-chart-pie"></i> Condiciones de vida y cultura</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/sociales/seguridad-publica-y-justicia"><i class="fas fa-chart-pie"></i> Seguridad pública y justicia</a></li>
+<li><a href="https://www.ine.gob.cl/estadisticas/economia/economia-regional"><i class="fas fa-chart-pie"></i> Economía regional</a></li>
+</ul>
+</div>
+<!-------------------------------------------------------------
+HERRAMIENTAS
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Herramientas
+</div>	
+<ul>
+<li><a href="https://www.ine.gob.cl/inicio/agendaestadistica/"><i class="fas fa-external-link-alt"></i> Agenda estadística</a></li>
+<li><a href="https://www.ine.gob.cl/simel" target="_blank"><i class="fas fa-external-link-alt"></i> Sistema de Información de Mercado Laboral - SIMEL</a></li>  
+<li><a href="https://bancodatosene.ine.cl/" target="_blank"><i class="fas fa-external-link-alt"></i> Banco de datos ENE</a></li>
+<li><a href="https://calculadoraipc.ine.cl/" target="_blank"><i class="fas fa-external-link-alt"></i> Calculadora IPC</a></li>
+<li><a href="https://calculadoraict.ine.cl/" target="_blank"><i class="fas fa-external-link-alt"></i> Calculadora ICT</a></li>  
+<li><a href="https://redatam-ine.ine.cl/" target="_blank"><i class="fas fa-external-link-alt"></i> Redatam</a></li>
+<li><a href="https://www.ine.gob.cl/calidad-estadistica/buscador-asistido-de-nomenclaturas"><i class="fas fa-external-link-alt"></i> Buscador Asistido de Nomenclaturas</a></li>  
+<li><a href="https://www.ine.gob.cl/herramientas/portal-de-mapas" target="_blank"><i class="fas fa-external-link-alt"></i> Portal de Mapas</a></li>
+<li><a href="https://stat.ine.cl/?lang=es" target="_blank"><i class="fas fa-external-link-alt"></i> INE.Stat</a></li>
+<!--<li><a href="https://rapps.ine.cl:3838/app/033_INE" target="_blank">Aplicación evaluación encuestas de hogares <i class="fas fa-external-link-alt"></i></a></li>-->  
+<li><a href="https://verificador.ine.cl/" target="_blank"><i class="fas fa-external-link-alt"></i> Verificador de encuestadores</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/sistema-estadistico-nacional/sistema-de-iniciativas-estadisticas" target="_blank"><i class="fas fa-external-link-alt"></i> Sistema de iniciativas estadísticas</a></li>
+</ul>
+<!-------------------------------------------------------------
+CALIDAD ESTADISTICA
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Calidad Estadística
+</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/calidad-estadistica/clasificaciones">Clasificaciones</a></li>
+<li><a href="https://www.ine.gob.cl/calidad-estadistica/directrices-metodologicas">Directrices Metodológicas</a></li>
+<li><a href="https://www.ine.gob.cl/calidad-estadistica/aseguramiento-de-la-calidad-estadistica">Aseguramiento de la Calidad Estadística</a></li>
+</ul>
+<!-------------------------------------------------------------
+INSTITUCIONAL
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Institucional
+</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/institucional/nuestra-institucion">Nuestra institución</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/plan-estrategico-2022-2026">Plan Estratégico 2022-2026</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/sistema-estadistico-nacional">Sistema estadístico nacional</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/inventario-de-registros-administrativos">Inventario de registros administrativos</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/area-internacional">Área Internacional</a></li>
+<li><a href="https://www.ine.gob.cl/institucional/ods">Participación institucional en ODS</a></li>  
+</ul>  
+<!-------------------------------------------------------------
+SALA DE PRENSA
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Sala de Prensa
+</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/sala-de-prensa/prensa/general">Prensa</a></li>
+<!--<li><a href="/sala-de-prensa/infografias">Infografias</a></li>-->
+<li><a href="https://www.youtube.com/c/inechileoficial/videos">Videos</a></li>
+</ul>
+<!-------------------------------------------------------------
+REGIONES
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Regiones
+</div>
+<ul>
+<li><a href="https://regiones.ine.gob.cl/arica-y-parinacota">Arica y Parinacota</a></li>
+<li><a href="https://regiones.ine.gob.cl/tarapaca">Tarapacá</a></li>
+<li><a href="https://regiones.ine.gob.cl/antofagasta">Antofagasta</a></li>
+<li><a href="https://regiones.ine.gob.cl/atacama">Atacama</a></li>
+<li><a href="https://regiones.ine.gob.cl/coquimbo">Coquimbo</a></li>
+<li><a href="https://regiones.ine.gob.cl/valparaiso">Valparaíso</a></li>
+<li><a href="https://regiones.ine.gob.cl/ohiggins">O'Higgins</a></li>
+<li><a href="https://regiones.ine.gob.cl/maule">Maule</a></li>
+<li><a href="https://regiones.ine.gob.cl/nuble">Ñuble</a></li>
+<li><a href="https://regiones.ine.gob.cl/biobio">Biobío</a></li>
+<li><a href="https://regiones.ine.gob.cl/araucania">La Araucanía</a></li>
+<li><a href="https://regiones.ine.gob.cl/los-rios">Los Ríos</a></li>
+<li><a href="https://regiones.ine.gob.cl/los-lagos">Los Lagos</a></li>
+<li><a href="https://regiones.ine.gob.cl/aysen">Aysén</a></li>
+<li><a href="https://regiones.ine.gob.cl/magallanes">Magallanes</a></li>
+</ul>  
+<!-------------------------------------------------------------
+ACCESO A INFORMANTES
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+Acceso Informantes
+</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/acceso-informantes/informacion-para-personas-encuestadas">Información para personas encuestadas</a></li>
+<li><a href="https://www.ine.gob.cl/acceso-informantes/informacion-para-empresas-encuestadas">Información para empresas encuestadas</a></li>		
+</ul>
+<!-------------------------------------------------------------
+INE EDUCA
+-------------------------------------------------------------->
+<div class="elmNivel1 abrirSinHijos">
+INE Educa
+</div>
+<ul>
+<li><a href="https://www.ine.gob.cl/ineciudadano/conoce-el-ine">Conoce el INE</a></li>
+<!--<li><a href="/ineciudadano/definiciones-estadisticas">Definiciones estadísticas</a></li>-->
+<li><a href="https://www.ine.gob.cl/conferencias-ciudadanas">Conferencias Ciudadanas</a></li>  
+<li><a href="https://www.ine.gob.cl/ine-ciudadano/boletin-ciudadano">Boletín ciudadano</a></li>  
+<li><a href="https://www.ine.gob.cl/ineciudadano/cursos">Cursos</a></li>
+<li><a href="https://www.ine.gob.cl/ineciudadano/clases-r">Clases R</a></li>  
+<li><a href="https://www.ine.gob.cl/ineciudadano/participacion-ciudadana">Participación ciudadana</a></li>	
+</ul>
+<!-------------------------------------------------------------
+TRANSPARENCIA Y REDES SOCIALES
+--------------------------------------------------------------> 
+<div class="elmNivel1">
+<a style="color:#ffffff" href="https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=AH007" target="_blank">Transparencia Activa</a>
+</div>
+<div class="siguenosRedesMovil mt-3">
+<p>Síguenos en redes sociales</p>
+<a href="https://www.facebook.com/ChileINE/" target="_blank" class="fab fa-facebook-f"></a>
+<a href="https://twitter.com/ine_chile?lang=es" target="_blank" class="fab fa-twitter"></a>
+<a href="https://www.youtube.com/user/inechile" target="_blank" class="fab fa-youtube"></a>
+<a href="https://www.instagram.com/chile.ine/" target="_blank" class="fab fa-instagram"></a><br><br>
+<a href="https://www.ine.gob.cl/statistics" title="Idioma en ingles" aria-expanded="false" class="idi mt-4"><u>EN</u></a>  
+</div>
+
+</div>
+<div class="menuMovilOverlay"></div>
+	 </div>
+	 <div id="AccesibilidadBloque">
+		 
+
+<div class="accesibilidad">
+    <i class="fas fa-universal-access"></i>
+</div>
+<div class="accesibilidadAbierto">
+    <div class="text-right">
+        <i class="far fa-times-circle"></i>
+    </div>
+    <div id="textoGrande" class="opcAccesibilidad">
+        <i class="fas fa-font"></i>
+        <p>Texto grande</p>
+    </div>
+    <div id="textoChico" class="opcAccesibilidad">
+        <i class="fas fa-font"></i>
+        <p>Texto Pequeño</p>
+    </div>
+    <div id="textoByN" class="opcAccesibilidadByN">
+        <i class="fas fa-palette"></i>
+        <p>Blanco y Negro</p>
+    </div>
+    <div class="opcAccesibilidadBorrar">
+        <i class="fas fa-eraser"></i>
+        <p>Eliminar Todos</p>
+    </div>
+</div>
+<div class="busquedaAbierta">
+        <i class="far fa-times-circle"></i>
+	<input type="text" class="inputBusqueda" placeholder="Escriba su búsqueda">
+	<button class="btnBusqueda"><i class="fas fa-search"></i></button>
+</div>
+
+
+<div class="cajaEvaluenos">Evalúenos</div>
+
+<div class="sf_cols evaluenos_full_contenedor" style="">
+    <div class="sf_colsOut sf_1col_1_100" style="width: 100%;" data-placeholder-label="Evalúenos full">
+        <div id="AccesibilidadBloque_T337C3398063_Col00" class="sf_colsIn sf_1col_1in_100">
+<span class="evaluenos_cerrar">
+  <i class="fa fa-times" aria-hidden="true"></i>
+ </span><div data-sf-role="form-container">
+    <input type="hidden" data-sf-role="form-id" value="b6b96bf6-d201-4a4c-a79b-3a07e86bf966" name="FormId">
+
+<div id="defaultFormctl00$AccesibilidadBloque$ctl11" enctype="multipart/form-data" role="form">                <div class="sf_colsOut sf_1col_1_100">
+        <div id="C007_Col00" class="sf_colsIn evalue_p evalue_p_1" data-sf-element="Column 1">
+            
+        
+
+<div class="sf-fieldWrp sf-RadioButtons" data-sf-role="multiple-choice-field-container">
+    <input type="hidden" data-sf-role="violation-messages" value="{ &quot;required&quot;: &quot;{0} field input is required&quot;}">
+    <strong>¿La experiencia de navegación le resultó fácil?</strong>
+
+
+        <div>
+            <label class="triste">
+                <input type="radio" name="MultipleChoiceFieldController_4" value="Difícil" data-sf-role="multiple-choice-field-input">
+                Difícil
+            </label>
+        </div>
+        <div>
+            <label class="neutro">
+                <input type="radio" name="MultipleChoiceFieldController_4" value="Normal" data-sf-role="multiple-choice-field-input">
+                Normal
+            </label>
+        </div>
+        <div>
+            <label class="alegre">
+                <input type="radio" name="MultipleChoiceFieldController_4" value="Fácil" data-sf-role="multiple-choice-field-input">
+                Fácil
+            </label>
+        </div>
+        <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+</div>
+    </div>
+<div class="sf_colsOut sf_1col_1_100">
+        <div id="C008_Col00" class="sf_colsIn evalue_p evalue_p_2" data-sf-element="Column 1">
+            
+        
+
+<div class="sf-fieldWrp sf-RadioButtons" data-sf-role="multiple-choice-field-container">
+    <input type="hidden" data-sf-role="violation-messages" value="{ &quot;required&quot;: &quot;{0} field input is required&quot;}">
+    <strong>¿Encontró la información buscada?</strong>
+
+
+        <div>
+            <label class="triste">
+                <input type="radio" name="MultipleChoiceFieldController_3" value="Nada" data-sf-role="multiple-choice-field-input">
+                Nada
+            </label>
+        </div>
+        <div>
+            <label class="neutro">
+                <input type="radio" name="MultipleChoiceFieldController_3" value="Parcialmente" data-sf-role="multiple-choice-field-input">
+                Parcialmente
+            </label>
+        </div>
+        <div>
+            <label class="alegre">
+                <input type="radio" name="MultipleChoiceFieldController_3" value="Toda" data-sf-role="multiple-choice-field-input">
+                Toda
+            </label>
+        </div>
+        <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+</div>
+    </div>
+<div class="sf_colsOut sf_1col_1_100">
+        <div id="C009_Col00" class="sf_colsIn evalue_p evalue_p_3" data-sf-element="Column 1">
+            
+        
+
+<div class="sf-fieldWrp sf-RadioButtons" data-sf-role="multiple-choice-field-container">
+    <input type="hidden" data-sf-role="violation-messages" value="{ &quot;required&quot;: &quot;{0} field input is required&quot;}">
+    <strong>¿La información encontrada es útil?</strong>
+
+
+        <div>
+            <label class="triste">
+                <input type="radio" name="MultipleChoiceFieldController_2" value="Poco útil" data-sf-role="multiple-choice-field-input">
+                Poco útil
+            </label>
+        </div>
+        <div>
+            <label class="neutro">
+                <input type="radio" name="MultipleChoiceFieldController_2" value="Más o menos" data-sf-role="multiple-choice-field-input">
+                Más o menos
+            </label>
+        </div>
+        <div>
+            <label class="alegre">
+                <input type="radio" name="MultipleChoiceFieldController_2" value="Muy útil" data-sf-role="multiple-choice-field-input">
+                Muy útil
+            </label>
+        </div>
+        <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+</div>
+    </div>
+<div class="sf_colsOut sf_1col_1_100">
+        <div id="C010_Col00" class="sf_colsIn evalue_p evalue_p_4" data-sf-element="Column 1">
+            
+        
+<div class="op-comentario sf-fieldWrp" data-sf-role="paragraph-text-field-container">
+    <input type="hidden" data-sf-role="violation-messages" value="{&quot;maxLength&quot;:&quot;{0} field input is too long&quot;, &quot;required&quot;: &quot;{0} field input is required&quot;}">
+    <label for="Textarea-1">¿Desea dejarnos un comentario?</label>
+    <textarea id="Textarea-1" data-sf-role="paragraph-text-field-textarea" name="ParagraphTextFieldController"></textarea>
+
+    <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+
+<div class="op-titulo sf-fieldWrp" data-sf-role="text-field-container">
+    <input data-sf-role="violation-restrictions" type="hidden" value="
+	API codificación
+">
+    <input data-sf-role="violation-messages" type="hidden" value="
+	API codificación
+">
+    <label for="Textbox-1">Titulo página</label>
+    <input id="Textbox-1" data-sf-role="text-field-input" type="text" name="TextFieldController_1" value="">
+
+
+    <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+
+<div class="op-url sf-fieldWrp" data-sf-role="text-field-container">
+    <input data-sf-role="violation-restrictions" type="hidden" value="https://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion">
+    <input data-sf-role="violation-messages" type="hidden" value="https://www.ine.gob.cl/calidad-estadistica/clasificaciones/api-codificacion">
+    <label for="Textbox-2">URL</label>
+    <input id="Textbox-2" data-sf-role="text-field-input" type="text" name="TextFieldController_2" value="">
+
+
+    <p data-sf-role="error-message" role="alert" aria-live="assertive"></p>
+</div>
+
+
+<div>
+    <div class="sf-Long-text"><div class="btn-evalue sf-fieldWrp"><button type="submit">Continuar</button></div></div>    
+</div></div>
+    </div>
+<div class="sf_colsOut sf_1col_1_100">
+        <div id="C033_Col00" class="sf_colsIn evalue_p evalue_p_5" data-sf-element="Column 1">
+            
+        
+<div>
+    <div class="sf-Long-text"><strong>Para finalizar, por favor introduzca el siguiente código</strong></div>    
+</div>
+
+
+<div data-sf-role="field-captcha-container" style="" class="sf-fieldWrp">
+    <div>
+        <img data-sf-role="captcha-image" src="data:image/png;base64,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">
+    </div>
+
+    <a data-sf-role="captcha-refresh-button">Nuevo código</a>
+
+    <div>
+        <input data-sf-role="violation-messages" type="hidden" value="{&quot;required&quot;: &quot;Campo obligatorio&quot;}">
+        <label for="Textbox-3">Por favor introduzca el código anterior</label>
+        <input id="Textbox-3" type="text" data-sf-role="captcha-input" name="captcha-a" required="required" style="display: inline-block;">
+        <p data-sf-role="error-message" role="alert" aria-live="assertive" style="display: none;"></p>
+    </div>
+    <input type="hidden" data-sf-role="captcha-ca" name="captcha-ca" value="6dxbLW3Alm0x7CFtZruhNvm9ktw=">
+    <input type="hidden" data-sf-role="captcha-iv" name="captcha-iv" value="oAilVrxSOPb8V56GOFngyQ==">
+    <input type="hidden" data-sf-role="captcha-k" name="captcha-k" value="cNsVhDnaeJvl9IXQh7HTI1cTuCcZimOk4+xZPwrGf+6E+REm3t66NDAUDSf+buY/g8K8++AwruysQquPs3pglQ==">
+
+    <input type="hidden" data-sf-role="captcha-settings" value="/RestApi/comments-api/">
+    <input type="hidden" data-sf-role="captcha-iam" value="Valor incorrecto para la imagen captcha">
+</div>
+
+
+<div class="btn-evalue sf-fieldWrp">
+    <button type="submit">Enviar</button>
+</div>
+
+
+</div>
+    </div>
+</div><script type="text/javascript">
+            (function ($) {
+                $(function() { 
+                    var container = document.getElementById("defaultFormctl00$AccesibilidadBloque$ctl11");
+                    if (container === null)
+                        return;
+                    var inputs = container.querySelectorAll("input, textarea, select");
+                    var allInputs = document.forms["aspnetForm"].querySelectorAll('input, textarea', 'select');
+                    var widgetValidators = [];
+                    for (var i = 0; i < allInputs.length; i++) {
+                        if ($(allInputs[i]).data('widget-validator')) {
+                            widgetValidators.push($(allInputs[i]).data('widget-validator'));
+                        }
+                        allInputs[i].addEventListener("invalid", function(event) {
+                            if (Array.indexOf(inputs, document.activeElement) >= 0 && Array.indexOf(inputs, event.target) < 0)
+                                event.preventDefault();
+                        }, true);
+                    }
+                    var submitClick = function (sender) {
+                        var isValid = true;
+                        for (var i = 0; i < inputs.length; i++) {
+                            if (typeof inputs[i].willValidate !== "undefined" && inputs[i].willValidate)
+                                isValid = inputs[i].validity.valid && isValid;
+                            if (isValid && typeof($(inputs[i]).data('sfvalidator')) === 'function')
+                                isValid = $(inputs[i]).data('sfvalidator')();
+                            if (typeof $ !== "undefined" && typeof $.validator !== "undefined")
+                                isValid = $(inputs[i]).valid() && isValid;
+                        }
+                        if (isValid) {
+                            sender.preventDefault();
+
+                            var deferreds = [];
+                            for (var i = 0; i < widgetValidators.length; i++) {
+                                deferreds.push(widgetValidators[i]());
+                            }
+
+                            $.when.apply($, deferreds).done(function () {
+                                for (var i = 0; i < widgetValidators.length; i++) {
+                                    if (!arguments[i]) {
+                                        return false;
+                                    }
+                                }
+
+                                var form = document.createElement("form");
+                                form.style.display = "none";
+                                form.setAttribute("action", "/calidad-estadistica/clasificaciones/api-codificacion?sf_cntrl_id=ctl00%24AccesibilidadBloque%24ctl11");
+                                form.setAttribute("method", "POST");
+                                if (container.getAttribute("enctype"))
+                                    form.setAttribute("enctype", container.getAttribute("enctype"));
+                                else
+                                    form.setAttribute("enctype", document.forms["aspnetForm"].getAttribute("enctype"));
+                                form.setAttribute("encoding", document.forms["aspnetForm"].getAttribute("encoding"));
+                        
+                                form.appendChild(container);
+                            
+                                sender = sender.target || sender.srcElement;
+                                if(sender)
+                                {
+                                    var submitHiddenInput = document.createElement("input");
+                                    submitHiddenInput.setAttribute("type", "hidden");
+                                    submitHiddenInput.setAttribute("name", sender.name);
+                                    submitHiddenInput.setAttribute("value", sender.value || "Submit");
+                                    form.appendChild(submitHiddenInput);
+                                }
+                        
+                                document.body.appendChild(form);
+                                // We prevent kendo upload widget from submitting empty inputs.
+                                var kInputs = container.querySelectorAll(".k-upload input[type='file']");
+                                for(var i = 0; i < kInputs.length; i++) {
+                                    var kInput = kInputs[i];
+                                    if (!kInput.value) {
+                                        // Prevent submitting an empty input
+                                        kInput.setAttribute("disabled", "disabled");
+                                        window.setTimeout(function() {
+                                            kInput.removeAttribute("disabled");
+                                        }, 0);
+                                    }
+                                }
+                            
+                                if (typeof MarketoSubmitScript !== 'undefined') {
+                                    MarketoSubmitScript._populateFormId($('input[data-sf-role="form-id"]').val());
+                                    var newSubmitButtons = $(form).find(MarketoSubmitScript._settings.externalFormSubmitButtonsQuery);
+                                    if (newSubmitButtons.length > 0)
+                                        MarketoSubmitScript._formFields = MarketoSubmitScript._getExternalFormFields(newSubmitButtons[0]);
+                                    if (MarketoSubmitScript._formFields && MarketoSubmitScript._formFields.length === 0)
+                                        MarketoSubmitScript._populateFieldsFromLabels(form);
+                                    MarketoSubmitScript._formSubmitHandler();
+                                }
+
+                                form.submit();
+                                return false;
+                            });
+                        }
+                    };
+                    var handleFormSubmitElements = function (elementName) {
+                        var allSubmitElements = container.getElementsByTagName(elementName);
+                        var elementCount = allSubmitElements.length;
+                        while(elementCount) {
+                            typeAttr = allSubmitElements[elementCount - 1].getAttribute("type");
+                            if(typeAttr == "submit") {
+                                var currentClick = allSubmitElements[elementCount - 1].onclick;
+                                if (currentClick)
+                                    allSubmitElements[elementCount - 1].onclick = function () { if (currentClick()) return submitClick(); else return false; };
+                                else
+                                    allSubmitElements[elementCount - 1].onclick = submitClick;
+                            }
+                            elementCount--;
+                        }
+                    };
+                    handleFormSubmitElements("input");
+                    handleFormSubmitElements("textarea");
+                    handleFormSubmitElements("select");
+                    handleFormSubmitElements("button");
+                })
+            })(jQuery);
+        </script>
+</div>
+
+            
+        </div>
+    </div>
+</div>
+<div class="d-none">
+    <div class="sf-Long-text">
+<a type="button" class="btn btn-cci btn-block" target="_blank" href="https://www.ine.gob.cl/ine-ciudadano/conferencias-ciudadanas"><strong>¡Participa en las Conferencias Ciudadanas, inscríbete!<span><em class="far fa-calendar-check"></em></span></strong></a></div>    
+</div>
+	 </div>
+	 <div id="ContentFullPantalla" class="fullPantalla">
+	    
+
+		
+		<div id="MargenContentFullPantalla" class="containerTotal">
+		 
+
+		</div>
+	 </div>
+	 
+	 <div id="ContentFullPantalla2" class="fullPantalla">
+	    
+
+		
+		<div id="MargenContentFullPantalla2" class="containerTotal">
+		 
+
+		</div>
+	 </div>
+	 
+	 <div id="Content" class="containerTotal">
+		 
+    <ul class="breadcrumbINE">
+                <li><a href="https://www.ine.gob.cl/">Inicio </a></li>
+                <li><a href="https://www.ine.gob.cl/calidad-estadistica">Calidad Estadística </a></li>
+                <li><a href="https://www.ine.gob.cl/calidad-estadistica/clasificaciones">Clasificaciones </a></li>
+                <li class="active">API codificación</li>
+    </ul><div class="sf_cols row">
+    <div class="sf_colsOut col-12 col-md-3" style="width: 25%;">
+        <div id="Content_C001_Col00" class="sf_colsIn sf_2cols_1in_33">
+
+
+
+
+<div class="sfNavWrp sfNavVerticalWrp ">
+    
+    
+    
+    
+
+    <ul class="sfNavVertical sfNavList navListSinDes">
+        
+                            <li>
+                                <a href="https://www.ine.gob.cl/calidad-estadistica/clasificaciones" class="sfSel">Clasificaciones</a>          
+                            </li>
+                        
+                            <li class="cuadroSombreado listaProductosIzq cuadroSombreadoInterior">
+                                <a href="https://www.ine.gob.cl/calidad-estadistica/directrices-metodologicas">Directrices Metodológicas</a>
+                                  <p></p>
+                            </li>
+                         
+                            <li class="cuadroSombreado listaProductosIzq cuadroSombreadoInterior">
+                                <a href="https://www.ine.gob.cl/calidad-estadistica/aseguramiento-de-la-calidad-estadistica">Aseguramiento de la Calidad Estadística</a>
+                                  <p></p>
+                            </li>
+                         
+    </ul>
+</div>
+
+            
+        </div>
+    </div>
+    <div class="sf_colsOut col-12 col-md-9" style="width: 75%;">
+        <div id="Content_C001_Col01" class="sf_colsIn sf_2cols_2in_67">
+<div>
+    <div class="sf-Long-text"><div class="titularXL" style="margin-top: 25px"><h1 style="padding: 0 0 60px 0"><strong>Tutorial API de codificación automática</strong></h1></div></div>    
+</div><div>
+	
+<div id="Content_ctl08_ctl00_ctl00_detailContainer">
+		        
+        <div class="sfitemDetails sfdetails" data-sf-provider="OpenAccessProvider" data-sf-id="34818414-f652-4bcd-8987-85385ed42e97" data-sf-type="Telerik.Sitefinity.DynamicModules.Model.DynamicContent">
+            <h1 id="Content_ctl08_ctl00_ctl00_detailContainer_mainShortTextFieldLiteral_0" class="sfitemTitle sftitle" data-sf-field="Title" data-sf-ftype="ShortText">
+			Tutorial - API de codificación automática
+		</h1>
+            <div class="sfitemPublicationDate">
+			dic. 20, 2022, 18:41 p.m.
+		</div>
+            
+			
+            <div class="sfitemRichText" data-sf-field="Contenido" data-sf-ftype="LongText">
+			
+<p>
+Con el objeto de hacer más eficiente el uso de recursos y mejorar la calidad de los datos publicados por el INE, durante los últimos años la institución
+ha avanzado en estrategias automatizadas de codificación, principalmente basadas en técnicas de aprendizaje de máquinas (machine learning). Este trabajo
+se encuentra a la base de la API de codificación automática que el presente tutorial busca acercar a las personas usuarias.
+<br>
+<br>
+Esta API para la codificación automática pone a disposición de los usuarios y usuarias modelos para clasificar rama de actividad económica (CAENES) y
+ocupación (CIUO-08.CL) de las personas, al nivel de desagregación de 1 y 2 dígitos, de acuerdo a como sea parametrizada. Los datos de entrenamiento provienen
+principalmente de la coyuntura de la Encuesta Nacional de Empleo, de modo que los modelos deberían ser utilizados sobre glosas cuya recolección tenga
+características similares a las implementadas en el trabajo de campo de dicha encuesta.
+<br>
+<br>
+El etiquetado de los datos y el entrenamiento de los modelos fueron realizados en el marco del Proyecto Estratégico Servicios Compartidos para la Producción
+Estadística, radicado en la Subdirección Técnica del INE. Para mayor información acerca del proceso de etiquetado manual y de la arquitectura de los modelos,
+diríjase al documento “Codificación automática de clasificadores CIUO-08.CL y CAENES a partir de técnicas de machine
+learning. Creación de sets de entrenamiento y optimización de algoritmos”, disponible en este mismo sitio para su consulta y descarga.
+<br>
+<br>
+En la presente viñeta se muestra, a partir de algunos ejemplos, la forma de interactuar con la API de codificación automática mediante R y Python. Esta
+guía está orientada a usuarios y usuarias con un manejo intermedio de R y/o Python y con conocimientos básicos de machine learning. Para una aproximación
+más formal a los métodos de la API, diríjase al siguiente sitio <a href="https://rapps.ine.cl:9292/__docs__/" target="_blank"><strong>https://rapps.ine.cl:9292/__docs__/&nbsp;</strong></a><br>
+<br>
+</p>
+<div class="alert alert-info"><strong>Documento metodológico servicio de codificación automática:</strong> <br>
+<a href="https://www.ine.gob.cl/docs/default-source/api-codificacion-automatica/codificacion-automatica-de-clasificadores-ciuo-08-cl-y-caenes-tecnicas-de-machine-learning.pdf" target="_blank">Codificación automática de clasificadores CIUO-08.CL y CAENES a partir de técnicas de machine learning</a></div>
+<p>&nbsp;</p>
+
+<h3 class="titulo-api pb-1">Predecir glosas individuales</h3>
+<p>
+El endpoint predict permite obtener el código predicho por el modelo para una glosa. El parámetro más importante es <kbd>text</kbd>, donde debe indicarse la glosa para la cual se busca una predicción. Además, se debe precisar el clasificador (ciuo o caenes), así como la cantidad de dígitos (1 o 2). En caso de que no se especifiquen estos últimos 2 parámetros, los valores por defecto serán caenes y 2, respectivamente.
+</p>
+<hr>
+
+<h5 class="titulo-api pb-1"><strong>Implementación en R</strong></h5>
+<p>
+El paquete <kbd>httr</kbd> permite hacer solicitudes a un servidor de manera sencilla y provee algunas herramientas para manipular la respuesta. Mediante la función <kbd>POST</kbd> realizamos el request (o solicitud), entregando los parámetros para <kbd>text</kbd>, <kbd>classification</kbd> y <kbd>digits</kbd>.
+</p>
+
+<pre class="alert bg-dark text-white"><code>
+<span class="text-warning">library</span> (httr)
+
+glosa &lt;- <span class="text-warning">"manipulador de alimentos prepara colaciones"</span>
+
+request &lt;-  httr::POST(<span class="text-warning">"https://rapps.ine.cl:9292/predict"</span>, 
+                       encode = <span>"json"</span>,
+                       body =  list(text = glosa,
+                                    classification = <span class="text-warning">"ciuo"</span>,
+                                    digits = <span class="text-primary">2</span>))
+</code>
+</pre>
+<p>Para verificar el resultado utilizamos la función <kbd>status_code</kbd>, a través de la cual es posible verificar el estatus de la operación (idealmente 200). Finalmente, con la función <kbd>content</kbd> se extrae el resultado de la consulta, consistente en un archivo json que indica la categoría predicha y la probabilidad asignada por el modelo a la predicción.</p>
+
+<pre class="alert bg-dark text-white"><code>
+<span class="text-info"># Revisar el status</span>
+httr::status_code(request)
+</code>
+</pre>
+
+<pre class="alert border bg-light"><code>
+## [1] 200
+</code>
+</pre>
+
+<pre class="alert bg-dark text-white"><code>
+<span class="text-info"># Extraer el contenido</span>
+response &lt;- httr::content(request)
+response
+</code>
+</pre>
+
+<pre class="alert border bg-light"><code>
+## [[1]]
+## [[1]]$codigo_int
+## [1] 21
+## 
+## [[1]]$cod_final
+## [1] "51"
+## 
+## [[1]]$prob
+## [1] 0.8568
+</code>
+</pre>
+
+<h5 class="titulo-api pb-1"><strong>Implementación en Python</strong></h5>
+<p>Para obtener una predicción para actividad económica, pero ahora mediante Python, es posible utilizar la librería <kbd>requests</kbd>. En este caso los parámetros <kbd>text</kbd>, <kbd>classification</kbd> y <kbd>digits</kbd> se entregan a través de un diccionario a la función <kbd>post</kbd>. Dado que estamos entregando una glosa de actividad económica, debemos utilizar el argumento “caenes”. Indicaremos, además, que la clasificación debe ser a un dígito.</p>
+
+<pre class="alert bg-dark text-white"><code>
+<span class="text-warning">import</span> requests
+ 
+glosa = <span class="text-warning">"producción uva exportación"</span>
+
+data = {
+    <span class="text-warning">"text"</span> : glosa,
+    <span class="text-warning">"classification"</span> : <span class="text-warning">"caenes"</span>,
+    <span class="text-warning">"digits"</span> : <span class="text-primary">1</span>
+}
+ 
+response = requests.post("https://rap</code>ps.ine.cl:9292/predict"<span style="font-family: Arial, Verdana, sans-serif">, json=data)</span></pre>
+
+<h3 class="titulo-api pb-1">Predicción de conjunto de glosas</h3>
+<p>&nbsp;</p>
+<p>
+Para codificar conjuntos de glosas, en lugar de textos individuales, se debe utilizar un procedimiento muy similar al anterior, pero ahora entregando una lista de strings. Para ello, se crea un dataframe que contiene glosas de actividad económica y entregamos esa información en el parámetro text. En este caso, se indica que la clasificación es cenes a un dígito.</p>
+<hr>
+
+<h5 class="titulo-api pb-1"><strong>Implementación en R</strong></h5>
+<p>Para implementar la misma consulta anterior en R, utilizamos el siguiente código.</p>
+
+<pre class="alert bg-dark text-white"><code>
+<span class="text-info"># Crear dataframe con ejemplos</span>
+caenes &lt;-  data.frame(glosa_caenes = c(<span class="text-warning">"extracción de cobre"</span>, <span class="text-warning">"producción uva exportación"</span>, <span class="text-warning">"Elaboración de Pan"</span>, 
+                                       <span class="text-warning">"Contratación de Personal reponedores"</span>, <span class="text-warning">"Cultivo de trigo"</span>))
+
+<span class="text-info"># Enviar la consulta al servidor</span>
+request &lt;-  httr::POST(<code>"https://rapps.ine.cl:9292/predict"</code>, 
+                       encode = <span class="text-warning">"json"</span>,
+                       body =  list(text = caenes$glosa_caenes,
+                                    classification = <span class="text-warning">"caenes"</span>,
+                                    digits = <span class="text-primary">1</span>)
+)
+
+<span class="text-info"># Extraer el contenido</span>
+response &lt;- httr::content(request)
+</code>
+</pre>
+<p>Dado que la respuesta de la API es un archivo json, una forma de ordenar el resultado, es mediante la función bind_rows del paquete dplyr.</p>
+<pre class="alert bg-dark text-white"><code>
+<span class="text-info"># Ordenar el contenido</span>
+<span class="text-warning">library</span>(dplyr, include.only =  <span class="text-warning">'bind_rows'</span> ) 
+bind_rows(response)
+</code>
+</pre>
+<pre class="alert border bg-light"><code>
+## # A tibble: 5 × 3
+##   codigo_int cod_final  prob
+##        &lt;int&gt; &lt;chr&gt;     &lt;dbl&gt;
+## 1          1 B         1    
+## 2          0 A         0.999
+## 3          2 C         1.00 
+## 4         13 N         0.993
+## 5          0 A         1
+</code>
+</pre>
+
+<h5 class="titulo-api pb-1"><strong>Implementación en Python</strong></h5>
+<p>Para implementar la misma consulta anterior en python, utilizamos el siguiente código.</p>
+
+<pre class="alert bg-dark text-white"><code>
+import requests
+import pandas as pd
+
+caenes = {<span class="text-warning">'glosa_caenes'</span>: [<span class="text-warning">"extracción de cobre"</span>, <span class="text-warning">"producción uva exportación"</span>, <span class="text-warning">"Elaboración de Pan"</span>, <span class="text-warning">"Contratación de Personal reponedores"</span>,
+                            <span class="text-warning">"Cultivo de trigo"</span>]}
+
+caenes = pd.DataFrame(data=caenes)
+
+
+<span class="text-info"># Parámetros de la consulta</span>
+data = {
+    <span class="text-warning">"text"</span> : list(caenes.glosa_caenes),
+    <span class="text-warning">"classification"</span> : <span class="text-warning">"caenes"</span>,
+    <span class="text-warning">"digits"</span> : <span class="text-primary">1</span>
+}
+
+<span class="text-info"># Enviar la consulta al servidor</span>
+response = requests.post("https://rapps.ine.cl:9292/predict", json=data) 
+
+<span class="text-info"># Extraer el contenido de la consulta </span>
+content = response.json()
+
+<span class="text-info"># Ordenar los resultados en un dataframe</span>
+pd.DataFrame(content)<span style="white-space: normal; font-family: Arial, Verdana, sans-serif">
+</span></code><span style="white-space: normal; font-family: Arial, Verdana, sans-serif">
+</span></pre>
+		</div>
+        </div>
+    
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+	 </div>
+	 <div id="Footer">
+	    <div class="containerTotal">
+		 
+<div class="sf_cols row">
+    <div class="sf_colsOut col-12 col-lg-3" style="width: 17%;">
+        <div id="Footer_T337C3398072_Col00" class="sf_colsIn sf_4cols_1in_25" style="margin: 0px;">
+<div>
+    <div class="sf-Long-text">
+<img width="170" class="mb-5" src="./api_codificacion_files/logotipo-ine-blanco.svg" alt="logotipo-ine-blanco"><h5>Redes sociales</h5><a href="https://www.facebook.com/ChileINE/" target="_blank"><em class="fab fa-facebook-f"></em></a>
+<a href="https://twitter.com/ine_chile?lang=es" target="_blank"><em class="fab fa-twitter"></em></a>
+<a href="https://www.youtube.com/user/inechile" target="_blank"><em class="fab fa-youtube"></em></a>
+<a href="https://www.instagram.com/chile.ine/" target="_blank"><em class="fab fa-instagram"></em></a>
+<br><br></div>    
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut col-12 col-lg-3" style="width: 33%;">
+        <div id="Footer_T337C3398072_Col01" class="sf_colsIn sf_4cols_2in_25" style="margin: 0px;">
+<div>
+    <div class="sf-Long-text"><h5>Enlaces externos</h5><p><a href="https://www.empleospublicos.cl/" target="_blank">Portal de Empleos Públicos</a></p><p><a href="https://www.chileatiende.gob.cl/" target="_blank">Chile Atiende</a></p><p><a href="https://www.educarchile.cl/" target="_blank">Educar Chile</a></p><p><a href="https://www.gob.cl/" target="_blank">Gobierno de Chile</a></p><br><h5>Política de privacidad</h5><p><a href="https://www.ine.gob.cl/terminos-de-uso-y-licencia-de-datos-abiertos" target="_blank">Términos de Uso y Licencia de Datos Abiertos</a></p><br><h5>Consultas</h5><p><a href="https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&amp;orgcode=584332e2783639463aa3ff8975706b9e" target="_blank">Solicitud de acceso a la información pública</a></p><p><a href="https://www.ine.gob.cl/compatibilidad">Declaración de compatibilidad de formatos web</a></p></div>    
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut col-12 col-lg-3" style="width: 25%;">
+        <div id="Footer_T337C3398072_Col02" class="sf_colsIn sf_4cols_3in_25" style="margin: 0px;">
+<div>
+    <div class="sf-Long-text"><h5>Contacto</h5><p>Dirección nacional: Morandé N°801, piso 2, Santiago, Chile<br>RUT: 60.703.000-6<br>Código postal: 8340148
+    <br><br></p><p><strong>SIAC / OIRS</strong><br>Horario de atención:<br>Lunes a viernes 9:00 a 17:00 horas<br>Fono : <a>232461010</a> - <a>232461018</a><br>Correo: ine@ine.gob.cl
+    <br><br></p><p><strong>Oficina de partes</strong><br>Atención presencial:<br>Lunes a viernes de 10:00 a 15:00<br>Piso 2<br>Correo: recepcion.documentos@ine.gob.cl
+</p></div>    
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut col-12 col-lg-3" style="width: 25%;">
+        <div id="Footer_T337C3398072_Col03" class="sf_colsIn sf_4cols_4in_25" style="margin: 0px;">
+<div>
+    <div class="sf-Long-text"><h5>Centros de atención Censo</h5><p>Horario de atención:<br>Lunes a viernes 9:00 a 21:00 horas<br>Fono Censo: 1525<br>Correo: censo@ine.gob.cl
+
+<br><br></p></div>    
+</div>
+<div>
+    <div class="sf-Long-text"><h5>Centros de atención</h5><select id="footerAtencion"><option value="footerVacio">Seleccione Región</option>
+<option value="footerR15">Arica y Parinacota</option> 
+<option value="footerR1">Tarapacá</option>
+ <option value="footerR2">Antofagasta</option>
+ <option value="footerR3">Atacama</option>
+ <option value="footerR4">Coquimbo</option>
+ <option value="footerR5">Valparaíso</option>
+ <option value="footerR6">O'Higgins</option>
+ <option value="footerR7">Maule</option>
+<option value="footerR16">Ñuble</option>
+ <option value="footerR8">Biobío</option>
+ <option value="footerR9">La Araucanía</option>
+ <option value="footerR14">Los Ríos</option>
+ <option value="footerR10">Los Lagos</option>
+ <option value="footerR11">Aysén</option>
+ <option value="footerR12">Magallanes</option>
+</select>
+<div class="footerVacio"></div></div>    
+</div>
+<div class="footerR15 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Arica y Parinacota</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp;Sotomayor N° 216, piso 5 Edificio Sacor, Arica</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+569232463500">23246 3500</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a href="https://www.google.cl/maps/place/Rafael+Sotomayor+216,+Arica,+Regi%C3%B3n+de+Arica+y+Parinacota/@-18.478831,-70.3220481,17z/data=!3m1!4b1!4m5!3m4!1s0x915aa993bf53045b:0x437b6aed323120b!8m2!3d-18.478831!4d-70.3198594" target="_blank">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a href="https://regiones.ine.cl/arica-y-parinacota">Ir al sitio</a></li>
+    </ul>
+</div>
+  
+<div class="footerR1 footerOficina">  
+    <ul>
+        <li><strong>Dirección Regional de Tarapacá</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Serrano 389 piso 11, Iquique</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462100">23246 2100 - 23246 2123</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://maps.app.goo.gl/kHZFmTs2gMWhn7TF7">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a href="https://regiones.ine.cl/tarapaca" target="_blank">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR2 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional Antofagasta</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Avenida José Miguel Carrera N° 1701, Piso 5, Edificio de Fomento Productivo (CORFO), Antofagasta</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462210">23246 2210</a></li>
+       <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Jos%C3%A9+Miguel+Carrera+1701,+Antofagasta,+Regi%C3%B3n+de+Antofagasta/@-23.6587162,-70.4040817,17z/data=!3m1!4b1!4m5!3m4!1s0x96afd50de3f4db05:0x9ad91fd766bff7b7!8m2!3d-23.6587162!4d-70.401893">Ir al mapa </a></li>
+	   <li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/antofagasta">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR3 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional Atacama</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Chacabuco N° 546, oficina 14, Piso 1, Edificio Copayapu, Copiapó</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+5623246 2300">23246 2300</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Chacabuco+546,+Copiap%C3%B3,+III+Regi%C3%B3n/@-27.3654034,-70.3341693,17z/data=!3m1!4b1!4m5!3m4!1s0x96980474217489b3:0xf3a861c7fd6f787e!8m2!3d-27.3654034!4d-70.3319806">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/atacama">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR4 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Coquimbo</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Gandarillas N° 850, La Serena</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462400">23246 2400</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Matta+461,+La+Serena,+Regi%C3%B3n+de+Coquimbo/@-29.9029215,-71.2549019,17z/data=!3m1!4b1!4m5!3m4!1s0x9691ca708f14141d:0xf608222c99342031!8m2!3d-29.9029215!4d-71.2527132">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/coquimbo">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR5 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional Valparaíso</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Calle 7 Norte, 610, esquina 1 Poniente, Viña del Mar</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462503">232462503</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/@-33.0161942,-71.5515454,3a,49.9y,155.05h,87.36t/data=!3m6!1e1!3m4!1sdhqcNigtJBJEcGh76sXl6A!2e0!7i13312!8i6656">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/valparaiso">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR6 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de O'Higgins</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Ibieta N° 090, Rancagua</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462677">232462677</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Ibieta+90,+Rancagua,+VI+Regi%C3%B3n/@-34.174274,-70.7392613,17z/data=!3m1!4b1!4m5!3m4!1s0x96634341327271b1:0x75cd8ebd62530aa3!8m2!3d-34.174274!4d-70.7370726">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/ohiggins">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR7 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional del Maule</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; 1 Norte N° 988, Piso 2, Edificio Doña Cristina, Talca</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462700">232462700</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Calle+1+Nte.+988,+Talca,+VII+Regi%C3%B3n/@-35.4262569,-71.6649175,17z/data=!3m1!4b1!4m5!3m4!1s0x9665c6a1bf447a85:0x1bdb28029b621b33!8m2!3d-35.4262569!4d-71.6627288">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/maule">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR16 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional del Ñuble</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Arturo Prat 430 piso 3, Chillán</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462871">232462871</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.com/maps/search/Arturo%20Prat%20430%20piso%203,%20Chill%C3%A1n">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/nuble">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR8 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional del Biobío</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Prat 390, Piso 3, Edificio Neocentro, Concepción</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462800">232462800</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Caupolic%C3%A1n+567,+Concepci%C3%B3n,+Regi%C3%B3n+del+B%C3%ADo+B%C3%ADo/@-36.8262036,-73.0538257,17z/data=!3m1!4b1!4m5!3m4!1s0x9669b5d06e5b9437:0x9f63ba93ec6411c7!8m2!3d-36.8262036!4d-73.051637">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/biobio">Ir al sitio</a></li>
+    </ul>
+</div>
+	
+<div class="footerR9 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de la Araucanía</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Prieto Norte 237, Temuco</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232462900">232462900</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Prieto+Nte+237,+Temuco,+IX+Regi%C3%B3n/@-38.733892,-72.6025515,17z/data=!3m1!4b1!4m5!3m4!1s0x9614d3ee55a687db:0xe6a763e23bba7e17!8m2!3d-38.733892!4d-72.6003628">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/araucania">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR14 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Los Ríos</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Maipú 130, Oficina 201, Valdivia</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232463400">232463400</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/INE+Los+R%C3%ADos/@-39.8147353,-73.2476299,20z/data=!4m13!1m7!3m6!1s0x9615ee75d956be95:0x7b4ac9a81a3d7e3b!2zTWFpcMO6IDEzMCwgVmFsZGl2aWEsIExvcyBSw61vcw!3b1!8m2!3d-39.8145688!4d-73.2470281!3m4!1s0x9615ee75d91e0017:0x1e5ef53415e78c99!8m2!3d-39.8145188!4d-73.247233">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/los-rios">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR10 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Los Lagos</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Juan Soler Manfredini N° 11, Piso 11, Of. 1102, Edificio Torre Plaza, Puerto Montt</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232463000">232463000</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Juan+Soler+Manfredini+11,+Puerto+Montt,+X+Regi%C3%B3n/@-41.4731724,-72.9389737,17z/data=!3m1!4b1!4m5!3m4!1s0x96183a502bf496b3:0x1ef93d0fadfe98a!8m2!3d-41.4731724!4d-72.936785">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/los-lagos">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR11 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Aysén</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Baquedano N° 496, Coyhaique</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232463100">232463100</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Gral+Baquedano+496,+Coyhaique,+XI+Regi%C3%B3n/@-45.5693839,-72.066395,17z/data=!3m1!4b1!4m5!3m4!1s0xbdf2c4b935efa51b:0x7abc9be5ba16fc28!8m2!3d-45.5693839!4d-72.0642063">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/aysen">Ir al sitio</a></li>
+    </ul>
+</div>
+
+<div class="footerR12 footerOficina">
+    <ul>
+        <li><strong>Dirección Regional de Magallanes y de la Antártica Chilena</strong></li>
+        <li><em class="fas fa-map-marker-alt"></em>&nbsp; Croacia N° 722, piso 9, Edificio Servicios Públicos, Punta Arenas</li>
+        <li><em class="fas fa-phone"></em>&nbsp;<a href="tel:+56232463267">232463267</a></li>
+        <li><em class="fas fa-map"></em>&nbsp;<a target="_blank" href="https://www.google.cl/maps/place/Croacia+722,+Punta+Arenas,+Regi%C3%B3n+de+Magallanes+y+de+la+Ant%C3%A1rtica+Chilena/@-53.1571968,-70.9050424,17z/data=!3m1!4b1!4m5!3m4!1s0xbdb2637f0cfca8d3:0xf50091a102faf9e0!8m2!3d-53.1571968!4d-70.9028537">Ir al mapa </a></li>
+		<li><i class="fas fa-globe"></i>&nbsp;<a target="_blank" href="https://regiones.ine.cl/magallanes">Ir al sitio</a></li>
+    </ul>
+</div>
+
+
+
+            
+        </div>
+    </div>
+</div>
+    <div class="sf_colsOut sf_4cols_1_25">
+        <div id="Footer_T337C3398015_Col00" class="sf_colsIn sf_4cols_1in_25 bloqueFooter bloqueFooter1 d-none" data-sf-element="Column 1">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_2_25">
+        <div id="Footer_T337C3398015_Col01" class="sf_colsIn sf_4cols_2in_25 bloqueFooter bloqueFooter2 d-none" data-sf-element="Column 2">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_3_25">
+        <div id="Footer_T337C3398015_Col02" class="sf_colsIn sf_4cols_3in_25 bloqueFooter bloqueFooter3 d-none" data-sf-element="Column 3">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_4_25">
+        <div id="Footer_T337C3398015_Col03" class="sf_colsIn sf_4cols_4in_25 bloqueFooter bloqueFooter4 d-none" data-sf-element="Column 4">
+            
+        </div>
+    </div>
+
+		</div>
+	 </div>
+	 
+	 <div id="PieFooter">
+	  <div class="containerTotal">
+	   
+
+<div>
+    <div class="sf-Long-text">Instituto Nacional de Estadísticas</div>    
+</div>
+	  </div>
+	 </div>
+	 
+ 
+<script type="text/javascript">/* ####### CODIGO SEGUIMIENTO DESCARGAS ARCHIVOS PARA GOOGLE ANALYTICS ####*/
+         $("body").on('click','a',function(){
+                 
+                 var filetypes = /\.(rar|zip|exe|pdf|csv|sav|dta|doc*|xls*|xlsx*|ppt*|mp3)$/i;
+                 var href = jQuery(this).attr('href');
+                 if(href && href !== 'undefined'){
+                         var arr = href.split("?");
+                         href = arr[0];
+                 }
+                 console.log(href);
+                 if(href && href.match(filetypes)){
+                         var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                         var filePath = href;
+                         ga('send', 'event', 'Descarga', 'Click-' + extension, filePath);
+                 }
+                 else if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+                         var extLink = href.replace(/^https?\:\/\//i, '');
+                         ga('send', 'event', 'Externo', 'Click', extLink);
+                 }else if(href=="/Documentos/Descarga" || href=="http://nuevoportal.ine.cl/Documentos/Descarga"){
+                         ga('send', 'event', 'Descarga', 'Click-Descargar Pack', window.location.href);
+                 }
+         });</script>
+<script type="text/javascript">
+//<![CDATA[
+var sf_appPath='/';;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl24_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=12.1.7100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:es-CL:df1d0602-bb89-4258-add2-45341006ff4d:7a90d6a:83fa35c7';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();//]]>
+</script>
+</form><script type="text/javascript">
+	StatsClient.LogVisit('ba547c43-b245-45e2-80df-e66adf536851', '3680cd93-35cc-4258-bca8-b7cd400d69b5');
+</script><script type="text/javascript" src="./api_codificacion_files/owl.carousel.min.js.descarga"></script><script type="text/javascript">
+$('.evalue_p_1 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_2').show();
+  });
+  $('.evalue_p_2 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_3').show();
+  });
+  
+  $('.evalue_p_2').on("click","label.triste", function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_4').show();
+  
+  });
+  
+  $('.evalue_p_3 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_4').show();
+  });
+  
+   $('.evalue_p_4 button').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_5').show();
+  });
+
+
+  cambiaCaritas(1);
+  cambiaCaritas(2);
+  cambiaCaritas(3);
+  
+  function cambiaCaritas(preg){
+    $('.evalue_p_'+preg+' label').each(function(i,v){
+        if(i=='0'){
+            $(this).addClass('triste');  	 
+        }else if(i=='1'){
+            $(this).addClass('neutro');  	 
+        }else if(i=='2'){
+            $(this).addClass('alegre');  	 
+        }
+    });
+  }
+  
+  $('.evalue_p_1 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_2').show();
+  });
+  $('.evalue_p_2 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_3').show();
+  });
+  $('.evalue_p_3 label').click(function(){
+    $('.evalue_p').hide();
+    $('.evalue_p_4').show();
+  });
+
+  
+  cambiaCaritas(1);
+  cambiaCaritas(2);
+  cambiaCaritas(3);
+  
+  function cambiaCaritas(preg){
+    $('.evalue_p_'+preg+' label').each(function(i,v){
+        if(i=='0'){
+            $(this).addClass('triste');  	 
+        }else if(i=='1'){
+            $(this).addClass('neutro');  	 
+        }else if(i=='2'){
+            $(this).addClass('alegre');  	 
+        }
+    });
+  }
+  asignaTitulo();
+  function asignaTitulo(){
+      var titulodepagina = document.querySelector('title');
+    $('.op-titulo input').val(titulodepagina.innerHTML);
+  }
+  
+  asignaUrl();
+  function asignaUrl(){
+      var urldepagina = document.URL;
+    $('.op-url input').val(urldepagina);
+    
+  }
+  
+  
+  
+  
+  $('.evaluenos_cerrar').click(function(){
+    $('.evaluenos_full_contenedor').hide();
+  });
+  
+  $('.cajaEvaluenos').click(function(){
+    $('.evaluenos_full_contenedor').show().css('right',0);
+  });
+  
+  if( !$('.evalue_p label').length ){
+    $('.evaluenos_full_contenedor').show();
+  }
+  $('.evaluenos_cerrar').click(function(){
+    $('.evaluenos_full_contenedor').hide();
+  });
+  
+  $('.cajaEvaluenos').click(function(){
+    $('.evaluenos_full_contenedor').show().css('right',0);
+  });
+  
+  if( !$('.evalue_p label').length ){
+    $('.evaluenos_full_contenedor').show();
+  }
+</script><script type="text/javascript">
+$("#footerAtencion").change(function(){
+  $(".footerOficina").hide();
+  $("."+ $("#footerAtencion").val()).fadeIn();
+  
+});
+</script>
+ 	<script src="./api_codificacion_files/nicescroll.min.js.descarga"></script>
+
+ <script>
+ $(document).ready(function(){
+  $(".menuMovil").niceScroll({
+        cursorcolor: "#c7c7c7",
+        cursorwidth: "12px",
+        cursorborder: "0px solid #d7d7d9",
+        autohidemode: !0,
+        background: "transparent"
+   });
+  
+  $(".menuMovil div").click(function(){
+    $(".menuMovil").getNiceScroll().resize()
+  });
+  
+ });
+ </script>
+
+<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 12px; z-index: 2; background: transparent; cursor: default; position: fixed; top: 0px; left: 278px; height: 0px; display: none;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 12px; height: 0px; background-color: rgb(199, 199, 199); border: 0px solid rgb(215, 215, 217); background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 12px; z-index: 2; background: transparent; top: -12px; left: 0px; position: fixed; cursor: default; display: none;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 12px; width: 0px; background-color: rgb(199, 199, 199); border: 0px solid rgb(215, 215, 217); background-clip: padding-box; border-radius: 5px;"></div></div></body></html>

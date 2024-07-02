@@ -1,0 +1,236 @@
+---
+# title: "Capacitación en R y herramientas de productividad"
+# author: "Abril 2021"
+format:
+  revealjs:
+    auto-stretch: false
+    margin: 0
+    slide-number: true
+    scrollable: true
+    preview-links: auto
+    logo: imagenes/logo_portada2.png
+    css: ine_quarto_styles.css
+    # footer: <https://quarto.org>
+---
+
+#
+
+<!---
+# TODO: this does not work
+ .linea-superior[]
+.linea-inferior[] 
+--->
+
+<!---
+# TODO: this does not work
+ ![](imagenes/logo_portada2.png){.center style="width: 20%;"}   
+--->
+
+[]{.linea-superior} 
+[]{.linea-inferior} 
+
+<!---
+ <img src="imagenes/logo_portada2.png" style="width: 20%"/>  
+--->
+
+<img src="imagenes/logo_portada2.png" width="20%"/>  
+
+[**Estandarización de esquema de trabajo**]{.big-par .center-justified}
+
+[**Proyecto Ciencia de Datos**]{.big-par .center-justified}
+
+[**julio 2024**]{.big-par .center-justified}
+
+
+## Introducción
+
+El equipo es joven y hemos funcionado sin demasiada estandarización de procesos
+
+. . .
+
+El estado de madurez actual nos invita a estandarizar algunas prácticas
+
+. . .
+
+Levantamiento de información sobre modos de trabajo
+
+
+## Objetivos de la presentación
+
+
+::: {.incremental .medium-par}
+- Compartir los hallazgos
+- Revisar una propuesta inicial
+- Dirimir colectivamente una estructura que nos haga sentido a todos
+:::
+
+
+
+
+
+## Hallazgos generales
+
+Todos trabajamos de manera diferente
+
+. . .
+
+Pero existen prácticas compartidas  
+
+
+## Prácticas compartidas
+
+Siempre existe una carpeta para **código**
+
+::: {.incremental .medium-par}
+- script
+- src
+- utils
+- code
+- código
+
+:::
+
+
+
+. . .
+
+Siempre existe una carpeta para **datos**
+
+
+::: {.incremental .medium-par}
+- data
+- datos
+- Se intenta separar **inputs** y **outputs**
+:::
+
+
+
+
+## Prácticas compartidas
+
+Suele existir una carpeta *models*
+
+. . .
+
+A veces, se utiliza un directorio para guardar cosas antiguas 
+
+. . .
+
+Se utiliza la carpeta *notebooks*
+
+
+## Prácticas no compartidas 
+
+Almacenar código y datos en *models*
+
+. . .
+
+Hacer subdirectorios dentro de *code*
+
+. . .
+
+Dejar el código en lugares diferentes a la raíz 
+
+
+. . .
+
+Carpetas con resultados entregables
+
+. . .
+
+Carpetas variopintas (pruebas, plots, otros, etc)
+
+
+## Sistema operativo
+
+::: {.incremental .medium-par}
+- Siempre linux
+- Linux y windows
+- Siempre windows
+:::
+
+. . .
+
+
+## Propuesta directorio
+
+
+La idea es recoger todas las sensibilidades
+
+. . .
+
+```
+project
+├──  README.md
+│
+└───data
+│   ├── input/
+|   ├── process/    
+│   └── output/
+│    
+└───code
+|   ├── __init__.py
+|   ├── algo.py
+|   ├── algo.py
+|   └── old/
+|
+└───reports
+│   ├── plots/
+|   ├── tables/    
+│   └── otros/
+|
+├─── notebooks
+|
+├─── scripts/
+|
+├─── docs/
+|
+├─── models/
+|
+├─── docker-compose.yml
+|
+└─── dockerfile.yml
+
+```
+
+
+## Estandarización sistema operativo
+
+
+```{python}
+#| eval: False
+#| echo: True
+# Si el proyecto implica usar docker, trabajamos en linux
+if docker == True:
+  print("usamos linux")
+elif docker == False :
+  print("Usamos windows o linux")
+```
+
+. . .
+
+```{python}
+#| eval: False
+#| echo: True
+# Si trabajamos colaborativamente, debemos homologar
+while mi_os != companere_os:
+  print("Homologar sistema operativo")
+```
+
+
+#
+
+
+[<img src="imagenes/logo_portada2.png" width="20%"/>]{.center}
+
+
+[**Estandarización de esquema de trabajo**]{.big-par .center-justified}
+
+[**Proyecto Ciencia de Datos**]{.big-par .center-justified}
+
+[**julio 2024**]{.big-par .center-justified}
+
+[]{.linea-superior} 
+[]{.linea-inferior} 
+
+

@@ -1,0 +1,24 @@
+---
+format:
+  revealjs:
+    auto-stretch: false
+    margin: 0
+    slide-number: true
+    scrollable: true
+    preview-links: auto
+    logo: imagenes/logo_portada2.png
+    css: ine_quarto_styles.css
+    # footer: <https://quarto.org>
+---
+
+
+```{python}
+#| eval: False
+#| echo: True
+
+# Si el proyecto implica usar docker, trabajamos en linux
+if docker == True:
+  print("usamos linux")
+elif docker == False :
+  print("Usamos windows o linux")
+```
